@@ -29,11 +29,15 @@
         <input type="button" value="0" onclick="addToDisplay('0')">
         <input type="button" value="=" onclick="calculate()">
         <input type="button" value="/" onclick="addToDisplay('/')">
+        <br>
+        <input type="button" value="." onclick="addToDisplay('.')">
+        <input type="button" value="(" onclick="addToDisplay('(')">
+        <input type="button" value=")" onclick="addToDisplay(')')">
     </div>
     <div class="history">
         <h>History</h>
         <ul id="history"></ul>
-        <button onclick="clearHistory()">clearHistory</button>
+        <button onclick="clearHistory()">Clear History</button>
     </div>
     <script src='script.js'>
 

@@ -30,7 +30,7 @@ body
     cursor: pointer;
     border: none;
     outline: none;
-    font-size: 18;
+    font-size: 30px;
     text-align: center;
 }
 .calculator input[type='text']
